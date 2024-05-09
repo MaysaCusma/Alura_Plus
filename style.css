@@ -46,7 +46,6 @@ body{
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
-}secundario__botao
 }
 
 .container__imagem{
@@ -69,7 +68,7 @@ body{
 .descricao__titulo{
     font-weight: 700;
     font-size: 48px;
-    color: var(--branco-principal);
+    color: white;
     margin: 0.1em;
 }
 
@@ -84,4 +83,26 @@ body{
 
 .container__descricao{
     padding: 2em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__favoritos{
+    font-size: 48px;
+    color: var(--branco-principal);
 }

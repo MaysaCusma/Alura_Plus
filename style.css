@@ -3,6 +3,7 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --botao-azul-efeito: rgba(226, 22, 226, 0.452);
     --fonte-principal:'Oswald';
 }
 
@@ -105,4 +106,42 @@ body{
 .dispositivos__favoritos{
     font-size: 48px;
     color: var(--branco-principal);
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin: 0 16px 0 16px;
+    font-size: 14px;
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.lista__link a:hover{
+    color: rgba(204, 60, 218, 0.774);
+}
+
+.lista__link a:active{
+    color: rgb(136, 2, 163);
+}
+
+.container__botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo)
 }
